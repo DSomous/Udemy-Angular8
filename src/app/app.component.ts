@@ -8,6 +8,9 @@ import { Component } from '@angular/core';
     h3 {
       color: dodgerblue
     }
+    [app-servers] {
+      border: 1px solid yellow;
+    }
   `]
 })
 export class AppComponent {
